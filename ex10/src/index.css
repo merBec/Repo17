@@ -1,0 +1,152 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("https://image.ibb.co/cO9Lxq/login-bg.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+#wraper {
+  height: 100%;
+}
+
+#left {
+  background-color: rgba(0, 0, 0, 0.904);
+  float: left;
+  width: 40%;
+  margin: 0;
+  height: 100%;
+}
+#right {
+  float: right;
+  width: 60%;
+}
+#bottom {
+  clear: both;
+}
+
+form div {
+  padding-top: 50px;
+}
+
+#signin {
+  display: inline-block;
+  padding-left: 100px;
+  padding-top: 50px;
+  width: 60%;
+}
+
+label {
+  color: white;
+  font-size: 14px;
+ 
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid whitesmoke;
+  box-sizing: border-box;
+  background-color: black;
+  
+}
+input, select, textarea{
+  color: white;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px;
+  box-sizing: border-box;
+  background-color: #174ea6;
+  font-weight: bold;
+  color: white;
+}
+
+#links {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+#links a {
+  width: 100%;
+  color: #174ea6;
+  text-decoration: none;
+  display: block;
+  padding-top: inherit;
+  text-align: center;
+}
+
+.secondary-btn {
+  width: 100%;
+  padding: 10px 10px;
+  display: inline-block;
+  border: 1px;
+  box-sizing: border-box;
+  background-color: grey;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+#showcase-content a {
+  width: 40%;
+  margin-left: 250px;
+  padding: 10px 10px;
+  display: inline-block;
+  border: 1px;
+  box-sizing: border-box;
+  background-color: grey;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+h1 {
+  margin-top: 150px;
+  padding: 200px 72px 0px 200px;
+  color: white;
+}
+
+#main-footer {
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px;
+  box-sizing: border-box;
+  background-color: black;
+  display: inline-block;
+  padding-right: 50px;
+  padding-top: 70px;
+}
+p {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+#main-footer a {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+#main-footer a + a::before {
+  content: " | ";
+}
+#main-footer div {
+  padding-left: 200px;
+}
